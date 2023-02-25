@@ -1,0 +1,62 @@
+.middle {
+    width: 670px;
+    position: relative;
+}
+
+.search-div {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    background-color: rgb(51, 51, 51);
+    border: none;
+    width: 74%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding-left: 12%;
+}
+
+.loupe {
+    width: 25px;
+    position:absolute;
+    top: 8px;
+    left: 37px;
+}
+
+input:active {
+    border: 2px rgb(0, 0, 255);
+}
+
+.settings-button {
+    width: 20px;
+    margin: 0;
+}
+
+.button {
+    padding: 8px;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+.button:hover {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.middle div {
+    padding: 10px 20px;
+}
+
+.trends {
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}

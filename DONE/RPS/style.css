@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(117, 108, 108);
+}
+
+.main-div {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px rgba(0,0,0, 0.2);
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: maroon;
+    color: white;
+    flex: 1;
+}
+
+.clearButton {
+    display: block;
+    grid-column: 2/3;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+p {
+    grid-column: 1/4;
+    padding: 20px;
+    background-color: maroon;
+    color: white;
+}
