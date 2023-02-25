@@ -27,7 +27,7 @@ body {
     padding: 0 10%;
     justify-content: center;
     gap: 25px;
-    justify-content: center;
+    align-items: center;
 }
 
 .upper {
@@ -63,9 +63,8 @@ body {
 
 @media (max-width:760px){
     .container {
+        padding: 0;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: space-between;
-        width: 65%;
     }
 
     .color {
