@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="header">
+            <nav>
+                <h1 class="logo">TO DO LIST!</h1>
+                <div>
+                    <button class="action-button" id="addButton">Add</button>
+                    <button class="action-button" id="clearButton">Clear</button>
+                </div>
+            </nav>
+        </header>
+    
+        <aside class="sidebar">
+            <div class="when-filter filter" id="when">Today</div>
+            <div class="priority-filter filter" id="priority">Priority</div>
+            <div class="color-filter filter" id="color">Color</div>
+        </aside>
+    
+        <div class="wrapper">
+            <main>
+                <div class="item-info">
+                    <div class="item-name-info info-info">name</div>
+                    <div class="item-when-info info-info">when</div>
+                    <div class="item-where-info info-info">where</div>
+                    <div class="item-priority-info info-info">priority</div>
+                </div>
+                <div class="item">
+                    <div class="item-name info">name</div>
+                    <div class="item-when info">when</div>
+                    <div class="item-where info">where</div>
+                    <div class="item-priority info">priority</div>
+                </div>
+
+            <div class="adding-task">
+                <div class="cancel" onclick="vanish()">X</div>
+                <legend><h1>Add</h1></legend>
+                <div class="content">
+                    <div class="left-side">
+                        <label>Name of the task<input type="text" class="name-input" maxlength="10" name="name"></label>
+                        <label>Date of the task<input type="date" class="when-input" name="date"></label>
+                        <label>Place<input type="text" class="where-input" name="place"  maxlength="10"></label>
+                        <label>Priority<input type="number" class="priority-input" max="10" min="1" name="priority"></label>
+                    </div>
+                    <div class="right-side">
+                        <label>Color<input type="color" class="color-input" style="width:100%;" name="priority"></label>
+                        <label>Description<textarea id="textarea"></textarea></label>
+                        <button class="submit" id="submit">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

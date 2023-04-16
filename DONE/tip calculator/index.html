@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tip calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid">
+            <div class="main-div">
+                <div class="heading">
+                    <h1>TIP CALCULATOR</h1>
+                </div>
+                <div class="total">
+                    <div class="total-upper">
+                        Bill total
+                    </div>
+                    <div class="total-lower">
+                        <input id="billTotalInput" type="search" maxlength="8" 
+                        placeholder="0.00" onkeyup="calculateBill()">
+                        <div class="procento">
+                            $
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="total">
+                    <div class="total-upper">
+                        Tip
+                    </div>
+                    <div class="total-lower">
+                        <input id="tipInput" type="search" maxlength="8" 
+                        placeholder="10" onkeyup="calculateBill()">
+                        <div class="procento">
+                            %
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lower-row">
+                    <div class="buttons-input">
+                        <div class="buttons-input-upper">
+                            People
+                        </div>
+                        <div class="buttons-input-lower">
+                            <button class="plus-button" id="plusButton">
+                                -
+                            </button>
+                                <div class="count" id="numberOfPeople">
+                                    
+                                </div>
+                            <button class="minus-button" id="minusButton">
+                                +
+                            </button>
+                        </div>
+                    </div>
+                    <div class="total-person">
+                        <div class="total-person-upper">
+                            Total per Person
+                        </div>
+                        <div class="total-person-lower">
+                            <div id="total-person-divided">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

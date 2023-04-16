@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img  class="image" src="https://images3.alphacoders.com/109/1098318.png">
+        <div class="main-div">
+            <header><h2>SUPERHERO APP</h2></header>
+            <div class="search-div" id="searchDiv">
+                <input id="heroInput" type="text" placeholder="Search">
+                <button id="searchButton" onclick="getHero(heroInput.value)">Search</button>
+                <button id="randomButton" onclick="getRandomHero(Math.floor(Math.random() * 731) + 1)">Random</button>
+            </div>
+            <section class="lower-row">
+                <div class="image-div" id="imageDiv"></div>
+                <div class="stats-div" id="statsDiv"></div>
+            </section>
+        </div>
+</body>
+<script src="script.js"></script>
+</html>

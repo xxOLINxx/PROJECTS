@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(136, 90, 189);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.main-div {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: rgb(38, 16, 68);
+    border-radius: 18px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.5);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 550px 1fr;
+    grid-template-rows: 1fr 750px 1fr;
+    position: absolute;
+    bottom: 500px;
+    left: 0;
+    right: 0;
+}
+
+.total {
+    margin-top: 70px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    height: 35px;
+    border-radius: 17px;
+    background-color: rgb(95, 59, 136);
+    font-size: 20px;
+    color: white;
+    padding-left: 36px;
+}
+
+.total-upper {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.lower-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.buttons-input-lower {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 27px;
+}
+
+button {
+    height: 32px;
+    width: 32px;
+    border: none;
+    border-radius: 16px;
+    background-color: rgb(160, 106, 221);
+    transition: 0.1s;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.count {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 4px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(45, 12, 189);
+}
+
+#total-person-divided {
+    font-size: 45px;
+}
+
+.total-person-upper {
+    margin-bottom: 19px;
+}
+
+.total-person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.total-lower {
+    position: relative;
+}
+
+.procento {
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+#plusButton {
+    padding-bottom: 3px;
+}

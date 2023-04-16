@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="main-div">
+      <header><h1>Weather</h1></header>
+        <input type="text" id="inputCity" placeholder="City, Country, area...">
+        <div class="button-div">
+          <button onclick="gettingData(gettingName(inputCity.value))">
+            Search
+          </button>
+          <button id="convertButton" value = 1 onclick="convertor(convertButton.value)">
+            &#176;C
+          </button>
+        </div>
+        <div class="lower-row">
+          <div class="upper-row">
+            <h2 id="cityName">-----</h2>
+          </div>
+          <div class="lower-lower-row">
+            <h1 id="main">-----</h1>
+            <ul>
+              <li>Temp: <span id="temp">--</span>&#176;<span id="degree">C</span></li>
+              <li>Min Temp: <span id="mintemp">--</span>&#176;<span id="degree">C</span></li>
+              <li>Max Temp: <span id="maxtemp">--</span>&#176;<span id="degree">C</span></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
