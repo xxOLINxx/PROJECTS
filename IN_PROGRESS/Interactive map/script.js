@@ -41,7 +41,7 @@ YmlzWgYiBGliaXOSAQVob3RlbJoB
 JENoZERTVWhOTUc5blMwVkpRMEZuU1VSek9FbHBPVEpCUlJBQuABAA!16s%2Fg%2F1vq9k_mz`
 
 let ibisText = `This is
-<strong><a href="#">hotel IBIS</a></strong> and those countries
+<strong><a href="https://www.hotelibisplzen.cz/en/" target="_blank">hotel IBIS</a></strong> and those countries
     are located here. You can find this place on
     adress <strong><a href="${googleMap}" target="_blank">Univerzitní 65</a></strong>.`
 
@@ -60,7 +60,7 @@ i2!8m2!3d49.748559!4d13.3815618!15sCghtYXJyaW90dCI
 DiAEBWgoiCG1hcnJpb3R0kgEFaG90ZWzgAQA!16s%2Fg%2F1hc41rx4h`
 
 let marriottText = `This is
-<strong><a href="#">hotel Marriott</a></strong> and those countries
+<strong><a target="_blank" href="https://www.marriott.com/en-us/hotels/prgpz-courtyard-pilsen/overview/?scid=00bac83c-e2ae-47ac-a320-a6f8f82bb36d&gclid=CjwKCAjw3POhBhBQEiwAqTCuBpxfE3rIrC5UaPAOVoTIQ9J2ARepAv2VCHD9vcyoOyrVbvt5hlgFKRoCnzwQAvD_BwE&gclsrc=aw.ds">hotel Marriott</a></strong> and those countries
     are located here. You can find this place on
     adress <strong><a href="${googleMap}" target="_blank">sady 5. května 57</a></strong>.`
 const markerMariott = L.marker([49.74855314066368, 13.381562916491971]).addTo(map);
@@ -76,7 +76,7 @@ m8!1s0x470af1e7b5332fa1:0x8bc9bbb49a5133b1!5m2!4m1!1i2!8m2!3d49.7
 458415!4d13.3869324!16s%2Fg%2F1w_vl_3y`
 
 let viennaText = `This is
-<strong><a href="#">hotel Vienna House</a></strong> and those countries
+<strong><a target="_blank" href="https://www.guestreservations.com/angelo-by-vienna-house-pilsen/booking?gclid=CjwKCAjw3POhBhBQEiwAqTCuBo78Cy6cr2A61Dtn2VveHzvC1MxilXKOdAZfAphf2so9sSJEPoWIvBoCRLAQAvD_BwE">hotel Vienna House</a></strong> and those countries
     are located here. You can find this place on
     adress <strong><a href="${googleMap}" target="_blank">U Prazdroje 2720</a></strong>.`
 const markerVienna = L.marker([49.74582909117203, 13.386963975377626]).addTo(map);
