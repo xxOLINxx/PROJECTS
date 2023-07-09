@@ -43,7 +43,7 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
     margin: 0 auto;
@@ -58,6 +58,10 @@ header {
 .logo {
     height: 80px;
     width: 80px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-40px);
 }
 
 .template-wrapper {
@@ -75,3 +79,11 @@ header {
     width: 100%;
 }
 
+.date {
+    font-size: 1rem;
+}
+
+.free-time {
+    font-size: .8rem;
+    color: white;
+}
