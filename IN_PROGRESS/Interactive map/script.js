@@ -62,7 +62,7 @@ let marriottText = `Link for the wepage of the hotel
 <strong><a target="_blank" href="https://www.marriott.com/en-us/hotels/prgpz-courtyard-p
 ilsen/overview/?scid=00bac83c-e2ae-47ac-a320-a6f8f82bb36d&gclid=CjwKCAjw3POhBhBQEiwAqTCuB
 pxfE3rIrC5UaPAOVoTIQ9J2ARepAv2VCHD9vcyoOyrVbvt5hlgFKRoCnzwQAvD_BwE&gclsrc=aw.d
-s">here</a></strong>. Headquarters will be located on this hotel. You can find this place on
+s">here</a></strong>. Headquarters will be located inside this hotel. You can find this place on
     adress <strong><a href="${googleMap}" target="_blank">sady 5. května 57</a></strong>.`
 const markerMariott = L.marker([49.74855314066368, 13.381562916491971]).addTo(map);
 markerMariott.bindPopup(template("hotel Marriott", marriottText,"pictures/marriott.png"));
@@ -124,6 +124,3 @@ const markerEquipment = L.marker([49.756565, 13.390530]).addTo(map);
 markerEquipment.bindPopup(template('Equipment storage', equipmentText,"pictures/lucni.jpg"));
 
 // roots
-let polygon = L.polygon([
-    [51.509, -0.08],
-]).addTo(map);
